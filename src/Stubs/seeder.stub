@@ -1,0 +1,16 @@
+<?php
+
+namespace Database\Seeders;
+
+use Illuminate\Database\Seeder;
+
+class {{ modelName }}Seeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     */
+    public function run(): void
+    {
+        \{{ modelNamespace }}\{{ modelName }}::factory()->count({{ count }})->create();
+    }
+}
