@@ -1,6 +1,6 @@
 <?php
 
-namespace Azwar\AutoGenerator\Parser;
+namespace Azwar\Laraseed\Parser;
 
 use PhpParser\Node;
 use PhpParser\Node\Expr\Closure;
